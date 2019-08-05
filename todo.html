@@ -19,10 +19,16 @@
 		}
 
 		var addEvent = document.getElementById('add-event');
+		var input = document.getElementById('new-item');
 		addEvent.addEventListener('click', addItem);
+		input.value = sessionStorage.getItem('draft');
+		input.addEventListener('change', updateSessionStorage);
+
+		function updateSessionStorage () {
+			sessionStorage.setItem('draft', input.value);
+		}
 
 		function addItem() {
-			var input = document.getElementById('new-item');
 			var newItem = input.value;
 			todoList.push(newItem);
 			render();

@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kachooka/practiceHTML.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kachooka/practiceHTML/issues"
+  },
+  "homepage": "https://github.com/kachooka/practiceHTML#readme",
   "description": ""
 }
