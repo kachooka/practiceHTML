@@ -1,0 +1,7 @@
+{
+	"todos": [
+		{ "id": 1, "content": "Learn UI Design"},
+		{ "id": 2, "content": "Learn React"},
+		{ "id": 3, "content": "Learn Angular"}
+	]
+}
